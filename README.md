@@ -85,6 +85,10 @@ export default App;
     }
 ```
 
+## Sample Tree:
+
+![](sample-gif.gif)
+
 
 
 ## Something Missing?
