@@ -1,24 +1,22 @@
 import React, { Component } from "react";
-
 import FoldersTree from "./Components/Main/FoldersTree/FoldersTree";
-
 import { getFolders } from "./Services/DirectoriesServices";
 
 class App extends Component {
   constructor(props) {
     super(props);
 
-    this.applSelected = this.applSelected.bind(this);
+    this.applySelected = this.applySelected.bind(this);
 
     this.state = {
       allFolders: getFolders()
     };
   }
 
-  applSelected(selected) {
+  applySelected(selected) {
     this.setState({
       ...this.state,
-      currentFodler: selected 
+      currentFodler: selected
     });
   }
 
@@ -27,7 +25,7 @@ class App extends Component {
       <React.Fragment>
         {this.state.currentFodler && <p>current fodler name: {this.state.currentFodler.name}</p>}
         <div className="App">
-          <FoldersTree onFolderSelect={this.applSelected} data={this.state.allFolders} />
+          <FoldersTree onFolderSelect={this.applySelected} data={this.state.allFolders} />
         </div>
       </React.Fragment>
     );
