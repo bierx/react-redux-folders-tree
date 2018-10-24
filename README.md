@@ -14,7 +14,7 @@ yarn add react-redux-folders-tree
 
 ```js
 import React, { Component } from "react";
-import FoldersTree from "./Components/Main/FoldersTree/FoldersTree";
+import FoldersTree from "react-redux-folders-tree";
 
 class App extends Component {
   constructor(props) {
