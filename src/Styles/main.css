@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:300,300i,400,600,700.css");
+@import url("http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700");
+body {
+  font-family: "Muli", sans-serif;
+  font-weight: normal; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Muli", sans-serif;
+  font-weight: normal; }
+
+.button {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold; }
+
+.folders-tree {
+  overflow: auto; }
+  .folders-tree .empty-folder {
+    padding-left: 32px;
+    line-height: 1;
+    font-size: 11px; }
+  .folders-tree .folder {
+    cursor: pointer;
+    padding: 5px;
+    padding-right: 0;
+    font-size: 14px;
+    border-bottom: 1px dashed #eee;
+    position: relative; }
+    .folders-tree .folder > span {
+      pointer-events: none; }
+      .folders-tree .folder > span.name {
+        vertical-align: text-bottom; }
+    .folders-tree .folder .radio-button {
+      position: absolute;
+      right: 0;
+      height: 25px; }
+    .folders-tree .folder .icon {
+      padding: 5px;
+      border-radius: 50%;
+      background: #c8c8c8;
+      margin-right: 5px;
+      pointer-events: none; }
+      .folders-tree .folder .icon svg {
+        fill: #fff; }
+    .folders-tree .folder .folder {
+      padding-left: 20px;
+      border-top: 1px dashed #eee;
+      margin-top: 5px; }
+      .folders-tree .folder .folder + .folder {
+        border-top: none; }
+      .folders-tree .folder .folder:last-child {
+        border-bottom: none; }
+      .folders-tree .folder .folder:first-child {
+        border-top: none; }

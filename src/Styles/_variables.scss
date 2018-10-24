@@ -1,0 +1,21 @@
+$primary-color: #49aaff;
+$secondary-color: #d40836;
+$success-color: #52a052;
+
+$button-font-color-light: rgb(248, 244, 244);
+$button-font-color-totaly-light: #fff;
+$darkGrey: #333;
+$grey: #ddd; 
+$white: #fff;
+
+// Array of colors from _variables.scss
+$theme-colors: (
+  primary: $primary-color,
+  secondary: $secondary-color,
+  success: $success-color
+) !default;
+
+$break-xs: "only screen and (max-width : 768px)";
+$break-sm: "only screen and (max-width : 992px)";
+$break-md: "only screen and (max-width : 1200px)";
+$break-lg: "only screen and (min-width : 1200px)";
