@@ -1,4 +1,4 @@
-## To install
+<!-- ## To install
 
 ```sh
 npm install react-redux-folders-tree
@@ -8,7 +8,7 @@ Alternatively you may use `yarn`:
 
 ```sh
 yarn add react-redux-folders-tree
-```
+``` -->
 
 ## To Run
 
