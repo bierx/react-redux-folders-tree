@@ -54,7 +54,7 @@ export default App;
 {
       token: "1f7f20dd10ce7836487bcc9fbbba4263eb22eb064ed2e930137f84fd275b348c",
       name: "Folder 1",
-      folders: []
+      folders: [...] 
     },
 ```
 
@@ -64,7 +64,7 @@ export default App;
 {
       token: "a2f32e1514fa2b7e6177fba786fc6158556fd01c92001959239fb6ac839ac52c",
       name: "Folder 1",
-      folders: []
+      folders: [...]
     },
     {
       token: "d3847453f093f49a0954189a6c2d7017a2f47d7e8cd515fcd4ec4512c15aede8",
@@ -77,7 +77,7 @@ export default App;
             {
               token: "991fa14b4b1f4a8ac6677fbbb0f3dbd8118cd448e420f4a93622c3d554d836e0a",
               name: "Folder 2 Child 2",
-              folders: []
+              folders: [...]
             }
           ]
         }

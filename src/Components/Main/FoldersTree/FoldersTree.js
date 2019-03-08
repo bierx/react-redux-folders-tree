@@ -27,7 +27,7 @@ class FoldersTree extends Component {
   render() {
     return (
       <div className="folders-tree">
-        {this.props.data.map((folder, index) => (
+        {this.props.data && this.props.data.map((folder, index) => (
           <FolderItem onSelectFolder={this.onSelectFolder} key={folder.token} folder={folder} selectedFolder={this.state.selectedFolder} />
         ))}
       </div>

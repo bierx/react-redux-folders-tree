@@ -50,6 +50,7 @@ class FolderItem extends Component {
         />
         {!folder.folders.length && <SmallTooltip text="Empty" />}
         {this.state.isOpen &&
+          this.state.folder &&
           this.state.folder.map((nestedFolder, index) => (
             <FolderItem
               onSelectFolder={onSelectFolder}
